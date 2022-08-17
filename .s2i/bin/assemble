@@ -46,6 +46,6 @@ fix-permissions ./
 
 #cp  -Rf /tmp/src/*.html  ./		
 DATE=$(date "+%F")
-echo " Date format modified "
+echo " Date format modified in info file"
 echo "${DATE} Message from s2i build" >> ./info.html
 #
